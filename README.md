@@ -1,2 +1,4 @@
 # QuotesGenerator
-This is my mini project to excerise Flexbos and JS usage  
+This is my mini project to excerise Flexbox and JS usage  
+
+Quotes Generator is created to randomly choose positive quote for a day 
