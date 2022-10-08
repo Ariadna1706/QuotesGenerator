@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+   margin: 0 auto;
+}
+
+body {
+  color: #bd8b1c;
+  text-align: center;
+  font-family: "Cantata One", serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+ min-height: 100vh;
+  background: rgb(240, 226, 253);
+  background: linear-gradient(
+    18deg,
+    rgba(240, 226, 253, 0.8743872549019608) 71%,
+    rgba(111, 227, 226, 1) 100%
+  );
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.image{
+    width: 40%;
+}
+
+.text_box {
+  
+  padding: 2rem;
+  width: 60%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.text_content {
+  min-height: 45vh;
+  border: 1px solid #bd8b1c;
+  margin: 20px auto;
+}
+
+.quote {
+  font-size: 1.5rem;
+  padding: 5rem 1rem 4rem 1rem;
+}
+
+.author {
+  padding-bottom: 2rem;
+}
+
+button {
+  display: block;
+  background-color: #a3e4e8;
+  color: #bd8b1c;
+  font-family: "Cantata One", serif;
+  font-size: 2rem;
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 50px;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: rgb(240, 226, 253);
+  background: linear-gradient(
+    18deg,
+    rgba(240, 226, 253, 0.8743872549019608) 51%,
+    rgba(111, 227, 226, 1) 90%
+  );
+}
+
+@media (max-width: 1100px) {
+  .container{
+    flex-wrap: wrap;
+
+  }
+
+  .text_box {
+  width: 100%;
+}
+}
+
+@media (max-width: 798px) {
+
+  .text_content {
+  min-height: 60vh;}
+
+
+ h1 {
+  font-size: 2rem;
+}
+
+.quote{
+    font-size: 1.2rem;
+}
+
+button {
+    font-size: 1.5rem;
+
+}
+
+
+
+}
+
+
+
